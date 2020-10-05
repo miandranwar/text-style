@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+section {
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url(ian-taylor-NwQBiMJtnB8-unsplash.jpg);
+    background-size: cover;
+}
+.text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    mix-blend-mode: screen;
+}
+.text h1 {
+    font-size: 6rem;
+    color: black;
+    z-index: 2;
+  
+}
+@media (min-width:700px){
+    .text h1 {
+        font-size: 18rem;
+    }
+}

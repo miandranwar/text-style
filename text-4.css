@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container {
+    position: relative;
+    text-align: center;
+
+}
+.left {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    font-size: 3rem;
+    color: red;
+}
+.line {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color: yellow;
+    width: 5px;
+    height: 50px;
+}
+.right {
+    position: absolute;
+    left: 180px;
+    top: 0;
+    font-size: 3rem;
+    color: green;
+}
+.down-1 {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    color: #fff;
+}
+.down-2 {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    color: #fff;
+}
